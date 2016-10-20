@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  	</head>
+  	<body>
+		<form id="tracker" method="GET" onsubmit="popup.js">
+			<fieldset>
+				<legend>Enter Tracking Information</legend>
+				<label for="number"> Tracking Number: </label><input type="text" name="number" id="number">
+				<label for="carrier"> Select Carrier: </label><select name="carrier" id="carrier">
+					<option value="USPS">USPS</option>
+					<option value="UPS">UPS</option>
+					<option value="FedEx">FedEx</option>
+				</select>
+				<input type="submit" id="track">
+			
+			</fieldset>
+		</form>
+		<button type="button" id="track">Track</button>
+		<script type="text/javascript" src="popup.js"></script>
+	  </body>
+</html>
+
